@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../../.grails/1.1.2/projects/embedding-zul-gsp/plugins/zk-0.7.6/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../.grails/1.1.2/projects/embedding-zul-gsp/plugins/zk-0.7.6">
+      <sourceFolder url="file://$MODULE_DIR$/../../../.grails/1.1.2/projects/embedding-zul-gsp/plugins/zk-0.7.6/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../.grails/1.1.2/projects/embedding-zul-gsp/plugins/zk-0.7.6/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../.grails/1.1.2/projects/embedding-zul-gsp/plugins/zk-0.7.6/grails-app/taglib" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="grails-1.1.2" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../.grails/1.1.2/projects/embedding-zul-gsp/plugins/hibernate-1.1.2/lib" />
+          <root url="file://$MODULE_DIR$/../../../.grails/1.1.2/projects/embedding-zul-gsp/plugins/zk-0.7.6/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../.grails/1.1.2/projects/embedding-zul-gsp/plugins/hibernate-1.1.2/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../.grails/1.1.2/projects/embedding-zul-gsp/plugins/zk-0.7.6/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

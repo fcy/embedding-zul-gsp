@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?meta http-equiv="Content-Type" content="text/html; charset=UTF-8"?>
+<?variable-resolver class="org.zkoss.zkplus.spring.DelegatingVariableResolver"?>
+<?init class="org.zkoss.zkplus.databind.AnnotateDataBinderInit" arg0="./wnd"?>
+<zk xmlns="http://www.zkoss.org/2005/zul"
+    xmlns:n="http://www.zkoss.org/2005/zk/native"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd">
+    <!--
+      User: Felipe Cypriano <fmcypriano@gmail.com>
+      Date: Date: 2009-12-07
+    -->
+    <window id="wnd" apply="${bookListComposer}">
+        <listbox id="listBoxBooks" model="@{wnd$composer.booksModel}" checkmark="true" multiple="true"
+                 fixedLayout="true" width="500px">
+            <listhead>
+                <listheader label="ID" sort="auto(id)" width="50px"/>
+                <listheader label="Author" sort="auto(author)" width="225px"/>
+                <listheader label="Title" sort="auto(title)" width="225px"/>
+            </listhead>
+            <listitem self="@{each=book}" value="@{book}">
+                <listcell label="@{book.id}"/>
+                <listcell label="@{book.author}"/>
+                <listcell label="@{book.title}"/>
+            </listitem>
+        </listbox>
+        <n:span class="buttons">
+            <button id="btnDelete" sclass="delete" mold="os" label="Delete Selected"/>
+        </n:span>
+    </window>
+</zk>

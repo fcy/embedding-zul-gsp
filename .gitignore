@@ -1,0 +1,6 @@
+*.log
+
+web-app/plugins
+
+#IntelliJ IDEA
+.idea/workspace.xml
