@@ -28,7 +28,7 @@ class BookListComposer extends GrailsComposer {
         def books = Book.list()
         booksModel.clear()
         booksModel.addAll(books)
-        binder.loadAll()
+        binder?.loadAll()
     }
 
 }
